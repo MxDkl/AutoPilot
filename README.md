@@ -10,5 +10,3 @@ This project is a proof of concept that is not really meant for practial use. It
 
 ## Supported Platforms
 - Windows
-- macOS
-- Linux X11

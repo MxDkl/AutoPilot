@@ -4,15 +4,15 @@ import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 
-client = OpenAI()
-
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI()
 
 
 class wrapper:
     def __init__(self):
-        self.api_key = openai.api_key
+        self.api_key = OpenAI.api_key
         self.chat_history = []
 
     def vision(self, img_path, prompt):
@@ -38,6 +38,10 @@ class wrapper:
                     ],
                 }
             ],
-            max_tokens=300,
+            max_tokens=500,
         )
-        return response
+
+        # update chat history
+
+
+        return response.choices[0].message.content
