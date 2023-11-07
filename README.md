@@ -3,7 +3,7 @@
 ## Introduction
 This project is a proof of concept that is not really meant for practial use. It is just an experiment.
 
-## Update (Nov 11 23)
+## Update (Nov 7 23)
 It seems that the vision api can not tell exatly where things are in an image which is a shame, as that is what I was hoping for with this project. Maybe this will change in the future.
 
 ## How to run 
