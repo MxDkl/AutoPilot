@@ -6,7 +6,7 @@ This project is a proof of concept that is not really meant for practial use. It
 ## How to run 
 - Clone the repo
 - pip install -r requirements.txt
-- python main.py
+- python main.py <task to complete>
 
 ## Supported Platforms
 - Windows
